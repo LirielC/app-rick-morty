@@ -1,0 +1,24 @@
+<resources>
+    <style name="Base.Theme.RickAndMortyApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/app_primary</item>
+        <item name="colorPrimaryVariant">@color/app_primary_dark</item>
+        <item name="colorOnPrimary">@color/app_on_primary</item>
+        <item name="colorSecondary">@color/app_secondary</item>
+        <item name="colorSecondaryVariant">@color/app_secondary</item>
+        <item name="colorOnSecondary">@color/app_on_secondary</item>
+        <item name="colorSurface">@color/app_surface</item>
+        <item name="colorOnSurface">@color/app_text</item>
+        <item name="colorOnBackground">@color/app_text</item>
+        <item name="colorError">@color/app_error</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:colorBackground">@color/app_background</item>
+        <item name="android:statusBarColor">@color/app_background</item>
+        <item name="android:navigationBarColor">@color/app_background</item>
+        <item name="materialCardViewStyle">@style/Widget.RickAndMortyApp.Card</item>
+        <item name="materialButtonStyle">@style/Widget.RickAndMortyApp.PrimaryButton</item>
+        <item name="textInputStyle">@style/Widget.RickAndMortyApp.TextInput</item>
+        <item name="chipStyle">@style/Widget.RickAndMortyApp.StatusChip</item>
+        <item name="bottomNavigationStyle">@style/Widget.RickAndMorty.BottomNavigationView</item>
+    </style>
+</resources>

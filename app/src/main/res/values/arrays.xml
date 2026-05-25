@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_options">
+        <item>@string/all</item>
+        <item>@string/alive</item>
+        <item>@string/dead</item>
+        <item>@string/unknown</item>
+    </string-array>
+
+    <string-array name="gender_options">
+        <item>@string/all</item>
+        <item>@string/female</item>
+        <item>@string/male</item>
+        <item>@string/genderless</item>
+        <item>@string/unknown</item>
+    </string-array>
+
+    <string-array name="species_options">
+        <item>@string/all</item>
+        <item>@string/species_human_pt</item>
+        <item>@string/species_alien_pt</item>
+        <item>@string/species_humanoid_pt</item>
+        <item>@string/species_robot_pt</item>
+        <item>@string/species_animal_pt</item>
+        <item>@string/species_mythological_creature_pt</item>
+        <item>@string/species_cronenberg</item>
+        <item>@string/species_disease_pt</item>
+        <item>@string/species_poopybutthole</item>
+        <item>@string/unknown</item>
+    </string-array>
+</resources>

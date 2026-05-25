@@ -1,0 +1,61 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven { url "https://repo.grails.org/grails/core/" }
+    }
+    dependencies {
+        classpath "org.grails:grails-gradle-plugin:${grailsGradlePluginVersion}"
+        classpath "com.bertramlabs.plugins:asset-pipeline-gradle:4.5.1"
+    }
+}
+
+version "0.1"
+group "rickmorty.backend"
+
+apply plugin: "eclipse"
+apply plugin: "idea"
+apply plugin: "org.grails.grails-web"
+apply plugin: "org.grails.grails-gsp"
+apply plugin: "com.bertramlabs.asset-pipeline"
+
+configurations {
+    developmentOnly
+    runtimeClasspath {
+        extendsFrom developmentOnly
+    }
+    console
+    profile
+}
+
+repositories {
+    mavenCentral()
+    maven { url "https://repo.grails.org/grails/core/" }
+}
+
+dependencies {
+    console "org.grails:grails-console:${grailsVersion}"
+    profile "org.grails.profiles:web"
+    implementation "org.springframework.boot:spring-boot-starter-logging"
+    implementation "org.springframework.boot:spring-boot-autoconfigure"
+    implementation "org.springframework.boot:spring-boot-starter-tomcat"
+    implementation "org.grails:grails-core:${grailsVersion}"
+    implementation "org.grails:grails-web-boot:${grailsVersion}"
+    implementation "org.grails:grails-plugin-rest:${grailsVersion}"
+    implementation "org.grails:grails-plugin-databinding:${grailsVersion}"
+    implementation "org.grails:grails-plugin-i18n:${grailsVersion}"
+    implementation "org.grails:grails-plugin-services:${grailsVersion}"
+    implementation "org.grails:grails-plugin-url-mappings:${grailsVersion}"
+    implementation "org.grails.plugins:hibernate5:${gormVersion}"
+    implementation "org.hibernate:hibernate-core:5.6.15.Final"
+    implementation "org.apache.tomcat:tomcat-jdbc"
+    implementation "com.h2database:h2"
+    implementation "mysql:mysql-connector-java:8.0.33"
+    runtimeOnly "org.springframework.boot:spring-boot-starter-actuator"
+    runtimeOnly "com.bertramlabs.plugins:asset-pipeline-grails:4.5.1"
+    testImplementation "org.grails:grails-gorm-testing-support"
+    testImplementation "org.grails:grails-web-testing-support"
+}
+
+bootRun {
+    jvmArgs("-Dspring.output.ansi.enabled=always")
+}

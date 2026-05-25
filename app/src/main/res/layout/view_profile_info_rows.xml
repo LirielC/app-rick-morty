@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView style="@style/Widget.RickAndMortyApp.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/id_label" />
+    <TextView style="@style/Widget.RickAndMortyApp.Body" android:id="@+id/profileIdTextView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <TextView style="@style/Widget.RickAndMortyApp.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/full_name_label" />
+    <TextView style="@style/Widget.RickAndMortyApp.Body" android:id="@+id/profileFullNameTextView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <TextView style="@style/Widget.RickAndMortyApp.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/status_label" />
+    <TextView style="@style/Widget.RickAndMortyApp.Body" android:id="@+id/profileStatusTextView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <TextView style="@style/Widget.RickAndMortyApp.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/species_label" />
+    <TextView style="@style/Widget.RickAndMortyApp.Body" android:id="@+id/profileSpeciesTextView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <TextView style="@style/Widget.RickAndMortyApp.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/type_label" />
+    <TextView style="@style/Widget.RickAndMortyApp.Body" android:id="@+id/profileTypeTextView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <TextView style="@style/Widget.RickAndMortyApp.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/gender_label" />
+    <TextView style="@style/Widget.RickAndMortyApp.Body" android:id="@+id/profileGenderTextView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <TextView style="@style/Widget.RickAndMortyApp.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/origin_label" />
+    <TextView style="@style/Widget.RickAndMortyApp.Body" android:id="@+id/profileOriginTextView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <TextView style="@style/Widget.RickAndMortyApp.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/origin_url" />
+    <TextView style="@style/Widget.RickAndMortyApp.Body" android:id="@+id/profileOriginUrlTextView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <TextView style="@style/Widget.RickAndMortyApp.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/last_location_full_label" />
+    <TextView style="@style/Widget.RickAndMortyApp.Body" android:id="@+id/profileLocationTextView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <TextView style="@style/Widget.RickAndMortyApp.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/location_url" />
+    <TextView style="@style/Widget.RickAndMortyApp.Body" android:id="@+id/profileLocationUrlTextView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <TextView style="@style/Widget.RickAndMortyApp.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/episodes_label" />
+    <TextView style="@style/Widget.RickAndMortyApp.Body" android:id="@+id/profileEpisodesTextView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <TextView style="@style/Widget.RickAndMortyApp.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/image_url" />
+    <TextView style="@style/Widget.RickAndMortyApp.Body" android:id="@+id/profileImageUrlTextView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <TextView style="@style/Widget.RickAndMortyApp.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/api_url" />
+    <TextView style="@style/Widget.RickAndMortyApp.Body" android:id="@+id/profileApiUrlTextView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <TextView style="@style/Widget.RickAndMortyApp.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/created_at" />
+    <TextView style="@style/Widget.RickAndMortyApp.Body" android:id="@+id/profileCreatedTextView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

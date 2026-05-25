@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding">24dp</dimen>
+    <dimen name="section_spacing">16dp</dimen>
+    <dimen name="compact_spacing">8dp</dimen>
+    <dimen name="card_radius">20dp</dimen>
+    <dimen name="card_radius_large">28dp</dimen>
+    <dimen name="chip_radius">14dp</dimen>
+    <dimen name="button_min_height">48dp</dimen>
+    <dimen name="toolbar_height">64dp</dimen>
+    <dimen name="hero_image_height">280dp</dimen>
+    <dimen name="list_image_size">92dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="bottom_nav_height">68dp</dimen>
+    <dimen name="hero_card_padding">20dp</dimen>
+    <dimen name="section_padding_large">24dp</dimen>
+</resources>

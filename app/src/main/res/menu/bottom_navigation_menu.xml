@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_overview"
+        android:icon="@drawable/ic_bottom_home"
+        android:title="@string/navigation_overview" />
+    <item
+        android:id="@+id/navigation_characters"
+        android:icon="@drawable/ic_bottom_characters"
+        android:title="@string/navigation_characters" />
+    <item
+        android:id="@+id/navigation_employees"
+        android:icon="@drawable/ic_bottom_employees"
+        android:title="@string/navigation_employees" />
+</menu>

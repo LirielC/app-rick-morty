@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_primary">#63DD9B</color>
+    <color name="app_primary_dark">#40BD7E</color>
+    <color name="app_secondary">#BBD157</color>
+    <color name="app_background">#101415</color>
+    <color name="app_surface">#101415</color>
+    <color name="app_surface_variant">#1A1F20</color>
+    <color name="app_surface_low">#15191B</color>
+    <color name="app_surface_high">#202628</color>
+    <color name="app_surface_highest">#2A3133</color>
+    <color name="app_text">#E2E3E6</color>
+    <color name="app_muted">#B9C5BD</color>
+    <color name="app_border">#425148</color>
+    <color name="app_on_primary">#002110</color>
+    <color name="app_on_secondary">#181E00</color>
+    <color name="app_primary_container">#005230</color>
+    <color name="app_secondary_container">#556500</color>
+    <color name="app_tertiary_container">#006876</color>
+    <color name="app_on_primary_container">#81FAB5</color>
+    <color name="app_on_secondary_container">#D6ED70</color>
+    <color name="app_on_tertiary_container">#A1EFFF</color>
+    <color name="app_chip_alive">#123625</color>
+    <color name="app_chip_dead">#46211E</color>
+    <color name="app_chip_unknown">#203340</color>
+    <color name="app_scrim">#28000000</color>
+    <color name="app_snackbar_background">#E6EEF2</color>
+</resources>

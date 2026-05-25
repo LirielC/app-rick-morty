@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#111111</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="portal_green">#3AC47D</color>
+    <color name="portal_green_dark">#1D7A51</color>
+    <color name="portal_glow">#D7F56A</color>
+    <color name="portal_glow_dark">#B8D45B</color>
+
+    <color name="background_light">#F4F8F6</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="surface_variant_light">#E9F2EE</color>
+    <color name="outline_light">#D4E1DB</color>
+    <color name="text_primary_light">#182126</color>
+    <color name="text_secondary_light">#5F6B73</color>
+
+    <color name="background_dark">#07131A</color>
+    <color name="surface_dark">#12202A</color>
+    <color name="surface_variant_dark">#19303C</color>
+    <color name="outline_dark">#315061</color>
+    <color name="text_primary_dark">#ECF3F0</color>
+    <color name="text_secondary_dark">#9EB0B8</color>
+
+    <color name="app_error">#BA1A1A</color>
+
+    <color name="app_primary">#006D41</color>
+    <color name="app_primary_dark">#005230</color>
+    <color name="app_secondary">#556500</color>
+    <color name="app_background">#F9F9FC</color>
+    <color name="app_surface">#F9F9FC</color>
+    <color name="app_surface_variant">#EEEFF1</color>
+    <color name="app_surface_low">#F3F3F6</color>
+    <color name="app_surface_high">#E8E8EA</color>
+    <color name="app_surface_highest">#E2E2E5</color>
+    <color name="app_text">#1A1C1E</color>
+    <color name="app_muted">#59615C</color>
+    <color name="app_border">#BCCABE</color>
+    <color name="app_on_primary">#FFFFFF</color>
+    <color name="app_on_secondary">#FFFFFF</color>
+    <color name="app_primary_container">#81FAB5</color>
+    <color name="app_secondary_container">#D6ED70</color>
+    <color name="app_tertiary_container">#A1EFFF</color>
+    <color name="app_on_primary_container">#004729</color>
+    <color name="app_on_secondary_container">#404C00</color>
+    <color name="app_on_tertiary_container">#00444E</color>
+    <color name="app_chip_alive">#DFF7EA</color>
+    <color name="app_chip_dead">#FFDAD6</color>
+    <color name="app_chip_unknown">#E6EEF2</color>
+    <color name="app_scrim">#1407131A</color>
+    <color name="app_snackbar_background">#1B2A32</color>
+</resources>
