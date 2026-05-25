@@ -49,6 +49,7 @@ Prints atuais do fluxo principal:
 - `app_imagens/` — prints atuais do aplicativo
 - `docsimp/` — documentação auxiliar do desafio
 - `DIAGRAMAS_MERMAID.md` — diagramas visuais principais do projeto
+- `teste_manual.md` — registro dos testes manuais em dispositivo físico
 - `testes_backend.md` — resumo dos testes automatizados
 
 ## Stack utilizada
@@ -380,6 +381,10 @@ Execução:
 4. Rode o app no emulador ou no aparelho.
 
 ## Build e testes
+
+Relato dos testes manuais executados em dispositivo físico:
+
+- [teste_manual.md](teste_manual.md)
 
 ### App Android
 
