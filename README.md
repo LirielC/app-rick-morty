@@ -42,8 +42,6 @@ Prints atuais do fluxo principal:
   <img src="app_imagens/WhatsApp%20Image%202026-05-24%20at%2022.47.12.jpeg" width="220" />
 </p>
 
-Observação: se quiser padronizar a entrega final, esses prints podem ser renomeados e movidos para `docs/images/`, mas os arquivos atuais já estão referenciados no repositório.
-
 ## Estrutura do repositório
 
 - `app/` — aplicativo Android
@@ -445,15 +443,5 @@ Backend:
 - MySQL Connector/J
 - H2 apenas para ambiente de teste/debug
 
-## Itens pendentes
 
-- O projeto está aderente ao escopo obrigatório do desafio.
-- A `BACKEND_BASE_URL` continua fixa no código e precisa ser ajustada manualmente conforme o ambiente de teste.
-- O backend foi pensado para uso local, não para deploy público.
-- Não há testes instrumentados Android nesta entrega; a cobertura Android atual é local/JUnit.
 
-## Observações finais
-
-- O backend local em MySQL é o fluxo principal documentado da entrega.
-- A autenticação simplificada com senha em texto puro e token simples existe apenas por foco no teste técnico.
-- O app preserva o estado principal da listagem e da imagem capturada dentro de uma solução leve, coerente com o escopo júnior.
